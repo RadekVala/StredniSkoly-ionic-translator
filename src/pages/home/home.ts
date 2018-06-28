@@ -7,8 +7,14 @@ import { NavController } from 'ionic-angular';
 })
 export class HomePage {
 
+  private result:String;
+
   constructor(public navCtrl: NavController) {
 
+  }
+
+  doTranslation(input){
+    this.result = input;
   }
 
 }
